@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 body {
   min-height: 1000vh;
@@ -107,4 +108,20 @@ a {
     display: block;
     cursor: pointer;
   }
+  #home img {
+    width: 100%;
+    height: auto;
+  }
 }
+/* content */
+.content {
+  margin-top: 2em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
+}
+.content p{
+  margin: 5px;
+}
+/* home */
