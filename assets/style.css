@@ -18,8 +18,8 @@ a {
   text-decoration: none;
 }
 .header {
-  border-bottom: 1px solid #e2e8f0;
-  background-color: #53bf9d;
+  border-bottom: 1px solid whitesmoke;
+  background-color:#2B9775;
   position: fixed;
   width: 100%;
 }
@@ -57,7 +57,7 @@ a {
 .nav-link {
   font-size: 1rem;
   font-weight: 400;
-  color: #475569;
+  color: #fff;
 }
 
 .nav-link:hover {
@@ -88,12 +88,12 @@ a {
     left: -100%;
     top: 5rem;
     flex-direction: column;
-    background-color: #fff;
+    background-color: #53bf9d;
     width: 100%;
-    border-radius: 10px;
     text-align: center;
-    transition: 0.3s;
+    transition: all ease 0.7s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    
   }
 
   .nav-menu.active {
