@@ -204,3 +204,18 @@ article:hover {
   margin-top: 5px;
   padding: 5px;
 }
+
+/* foooter */
+.foot {
+  background-color: #2b9775;
+  color: #fff;
+  height: 40px;
+  margin-top: 5em;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 2px;
+}
+
+footer h4 {
+  padding: 5px 5px;
+}
